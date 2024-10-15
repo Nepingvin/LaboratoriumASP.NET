@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/Views/Calculator/Form.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Calculator/Calculator.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Calculator/Form.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Calculator/Form.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +30,16 @@
     &quot;assignee&quot;: &quot;Nepingvin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Nepingvin/LaboratoriumASP.NET.git&quot;,
-    &quot;accountId&quot;: &quot;5ffbd15b-b130-4e43-8d8f-4a894231a313&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nepingvin/LaboratoriumASP.NET.git",
+    "accountId": "b6c795ae-1e45-4ce0-8c38-fcca63e9ee56"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/About.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -126,15 +126,27 @@
       <option name="presentableId" value="Default" />
       <updated>1728400341047</updated>
       <workItem from="1728400342465" duration="3214000" />
-      <workItem from="1729005082096" duration="1932000" />
+      <workItem from="1729005082096" duration="2503000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1729007265614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729007265614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
