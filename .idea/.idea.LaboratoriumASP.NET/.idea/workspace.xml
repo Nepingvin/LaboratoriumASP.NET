@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="kkk">
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/Calculator.cs" afterDir="false" />
+    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Calculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Calculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +40,12 @@
     &quot;assignee&quot;: &quot;Nepingvin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nepingvin/LaboratoriumASP.NET.git",
-    "accountId": "b6c795ae-1e45-4ce0-8c38-fcca63e9ee56"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nepingvin/LaboratoriumASP.NET.git&quot;,
+    &quot;accountId&quot;: &quot;b6c795ae-1e45-4ce0-8c38-fcca63e9ee56&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/About.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -57,7 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.WebApp: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.WebApp: https.executor": "Run",
+    ".NET Launch Settings Profile.WebApp: https.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lab22",
     "node.js.detected.package.eslint": "true",
@@ -131,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1728400341047</updated>
       <workItem from="1728400342465" duration="3214000" />
-      <workItem from="1729005082096" duration="3851000" />
+      <workItem from="1729005082096" duration="4293000" />
+      <workItem from="1729609418149" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -157,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729008286872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=",">
+      <option name="closed" value="true" />
+      <created>1729009250579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729009250579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +183,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="." />
     <MESSAGE value="kkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="kkk" />
+    <MESSAGE value="," />
+    <option name="LAST_COMMIT_MESSAGE" value="," />
   </component>
 </project>
