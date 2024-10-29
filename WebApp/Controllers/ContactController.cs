@@ -13,9 +13,9 @@ namespace WebApp.Controllers
                 new ContactModel ()
                 {
                     Id = 1,
-                    FirstName = "Foo",
-                    LastName = "Bar",
-                    Email = "foobar@gmail.com",
+                    FirstName = "He",
+                    LastName = "Sen",
+                    Email = "someone@gmail.com",
                     PhoneNumber = "123 456 789",
                     BirthDate = new DateOnly(2003, 10, 10)
                 }
@@ -26,7 +26,7 @@ namespace WebApp.Controllers
                 {
                     Id = 2,
                     FirstName = "Adam",
-                    LastName = "Nowicki",
+                    LastName = "Nowak",
                     Email = "nowicki@gmail.com",
                     PhoneNumber = "111 222 333",
                     BirthDate = new DateOnly(2000, 02, 11)
