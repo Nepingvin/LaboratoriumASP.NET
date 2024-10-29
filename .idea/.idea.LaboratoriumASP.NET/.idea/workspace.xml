@@ -9,48 +9,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="">
+    <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="calculator">
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/BirthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/CalculatorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/Birth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/Calculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Birth/Form.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Birth/Result.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Calculator/Form.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Calculator/Result.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ErrorViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/About.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Home/About.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/Calculator.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Home/Calculator.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nepingvin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nepingvin&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Nepingvin/LaboratoriumASP.NET.git",
-    "accountId": "5ffbd15b-b130-4e43-8d8f-4a894231a313"
+    "accountId": "45ecc9b8-0e60-41d0-b8cc-c0b0fcc1d988"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/About.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2n9zz9gN5jFj0IDWEDVrOUDVwp3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,25 +73,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.WebApp: IIS Express.executor": "Run",
+    ".NET Launch Settings Profile.WebApp: http.executor": "Run",
     ".NET Launch Settings Profile.WebApp: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "lab3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "D:\\Users\\anastasiya.kuzniatso\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "D:\\Users\\anastasiya.kuzniatso\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "D:\\Users\\anastasiya.kuzniatso\\AppData\\Local\\Symbols\\src"
-    ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApp: https">
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApp: http">
     <configuration name="WebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -134,14 +141,18 @@
       <option name="presentableId" value="Default" />
       <updated>1728400341047</updated>
       <workItem from="1728400342465" duration="3214000" />
+      <workItem from="1730219677098" duration="2172000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator" />
   </component>
 </project>

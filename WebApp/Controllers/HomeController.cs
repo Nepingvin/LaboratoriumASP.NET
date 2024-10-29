@@ -23,26 +23,25 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult About()
-    {
-        return View();
-    }
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-
-    public IActionResult About(string op)
+    
+    public IActionResult About()
     {
-        ViewBag.Op = op;
         return View();
     }
-
+    
     public IActionResult Calculator(string op, double x, double y)
     {
-        switch (op)
+        ViewBag.x = x;
+        ViewBag.y = y;
+        
+        ViewBag.op = op;
+        
+        switch(op)
         {
             case "add":
                 ViewBag.Result = x + y;
@@ -57,7 +56,7 @@ public class HomeController : Controller
                 ViewBag.Result = x / y;
                 break;
         }
-
         return View();
     }
+
 }
