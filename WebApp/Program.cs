@@ -1,10 +1,13 @@
+using WebApp.Models;
 using WebApp.Models.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IContactService, MemoryContactService>();
+builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddTransient<IContactService, EFCotactService>();
+
 
 var app = builder.Build();
 
