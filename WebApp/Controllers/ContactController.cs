@@ -1,55 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
+using WebApp.Models.Services;
 
 namespace WebApp.Controllers
 {
     public class ContactController : Controller
     {
-        private static int currentId = 3;
-        private static Dictionary<int, ContactModel> _contacts = new()
+        private readonly IContactService _contactService;
+
+        public ContactController(IContactService contactService)
         {
-            {
-                1,
-                new ContactModel ()
-                {
-                    Id = 1,
-                    FirstName = "He",
-                    LastName = "Sen",
-                    Email = "someone@gmail.com",
-                    PhoneNumber = "123 456 789",
-                    BirthDate = new DateOnly(2003, 10, 10)
-                }
-            },
-            {
-                2,
-                new ContactModel ()
-                {
-                    Id = 2,
-                    FirstName = "Adam",
-                    LastName = "Nowak",
-                    Email = "nowicki@gmail.com",
-                    PhoneNumber = "111 222 333",
-                    BirthDate = new DateOnly(2000, 02, 11)
-                }
-            },
-            {
-                3,
-                new ContactModel ()
-                {
-                    Id = 3,
-                    FirstName = "Lukasz",
-                    LastName = "Niewiadomy",
-                    Email = "lukasz123@gmail.com",
-                    PhoneNumber = "101 252 233",
-                    BirthDate = new DateOnly(1998, 06, 01)
-                }
-            }
-        };
+            _contactService = contactService;
+        }
 
         // lista kontaktow, przycisk dodawania
         public IActionResult Index()
         {
-            return View(_contacts);
+            return View(_contactService.GetAll());
+        }
+
+        public IActionResult Details(int id)
+        {
+            return View(_contactService.GetById(id));
         }
 
         public IActionResult Add()
@@ -59,23 +31,35 @@ namespace WebApp.Controllers
         [HttpPost]
         public IActionResult Add(ContactModel model)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(model);
             }
-            model.Id = ++currentId;
-            _contacts.Add(model.Id, model);
 
-            return View("Index", _contacts);
+            _contactService.Add(model);
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
-            _contacts.Remove(id);
+            _contactService.Delete(id);
 
-            return View("Index", _contacts);
+            return RedirectToAction(nameof(Index));
         }
 
-        
+        public IActionResult Edit(int id)
+        {
+            return View(_contactService.GetById(id));
+        }
+        [HttpPost]
+        public IActionResult Edit(ContactModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            _contactService.Update(model);
+            return RedirectToAction(nameof(System.Index));
+        }
     }
 }

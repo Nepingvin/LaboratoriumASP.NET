@@ -1,12 +1,13 @@
 ﻿@model ContactModel
 @{
-ViewBag.Title = "Add Contact";
-Layout = "_Layout";
+    ViewBag.Title = "Edit Contact";
+    Layout = "_Layout";
 }
 
-<h2>Add Contact</h2>
+<h2>Edit Contact</h2>
 
-<form asp-action="Add" asp-controller="Contact" method="post">
+<form asp-action="Edit" asp-controller="Contact" method="post">
+    <input asp-for="Id" />
     <div class="mb-3">
         <label class="form-label" asp-for="FirstName"></label>
         <input class="form-control" asp-for="FirstName" />
@@ -40,12 +41,11 @@ Layout = "_Layout";
     <div class="mb-3">
         <label class="form-label" asp-for="Category"></label>
         <select class="form-control" asp-for="Category" asp-items="@Html.GetEnumSelectList<Category>()">
-
         </select>
         <span class="text-danger" asp-validation-for="Category"></span>
     </div>
 
     <div class="mb-3">
-        <button class="btn btn-primary" type="submit">Add contact</button>
+        <button class="btn btn-primary" type="submit">Edit contact</button>
     </div>
-</form> 
+</form>
