@@ -2,11 +2,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WebApp.Models.Services;
 
-public class EFCotactService: IContactService
+public class EFContactServices: IContactService
 {
     private readonly AppDbContext _context;
 
-    public EFCotactService(AppDbContext context)
+    public EFContactServices(AppDbContext context)
     {
         _context = context;
     }
@@ -39,5 +39,10 @@ public class EFCotactService: IContactService
     {
         var entity = _context.Contacts.Find(id);
         return entity != null ? ContactMapper.FromEntity(entity) : null;
+    }
+
+    public List<OrganizationEntity> GetOrganizations()
+    {
+        return _context.Organizations.ToList();
     }
 }

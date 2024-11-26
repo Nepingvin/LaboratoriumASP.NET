@@ -10,12 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2389927-d521-4978-b1e4-1fbea3e7b2ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFContactServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/OrganizationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/OrganizationEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaboratoriumASP.NET/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/EFContactServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFContactServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab4" />
+        <entry key="$PROJECT_DIR$" value="lab6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,22 +67,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.WebApp: IIS Express.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.WebApp: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.WebApp: https.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.WebApp: IIS Express.executor": "Run",
+    ".NET Launch Settings Profile.WebApp: http.executor": "Run",
+    ".NET Launch Settings Profile.WebApp: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lab6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp: https">
     <configuration name="WebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
@@ -134,6 +142,11 @@
       <workItem from="1730219677098" duration="3497000" />
       <workItem from="1730810251041" duration="3522000" />
       <workItem from="1730822488058" duration="4629000" />
+      <workItem from="1730827156592" duration="195000" />
+      <workItem from="1730984031104" duration="130000" />
+      <workItem from="1731427058796" duration="5234000" />
+      <workItem from="1732031043526" duration="2517000" />
+      <workItem from="1732624593164" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="calculator">
       <option name="closed" value="true" />
@@ -167,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730813753407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab5">
+      <option name="closed" value="true" />
+      <created>1730827338717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730827338717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +201,7 @@
     <MESSAGE value="calculator" />
     <MESSAGE value="." />
     <MESSAGE value="lab4 całe" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab4 całe" />
+    <MESSAGE value="lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
   </component>
 </project>

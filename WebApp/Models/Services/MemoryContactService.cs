@@ -67,6 +67,11 @@ namespace WebApp.Models.Services
             return _contacts[id];
         }
 
+        public List<OrganizationEntity> GetOrganizations()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(ContactModel model)
         {
             if(_contacts.ContainsKey(model.Id))

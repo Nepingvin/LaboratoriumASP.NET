@@ -29,9 +29,10 @@ namespace WebApp.Models
         [Display(Name = "Numer telefonu")]
 
         public string PhoneNumber { get; set; }
+        
         [DataType(DataType.Date)]
+        
         [Display(Name = "Data urodzenia")]
-
         public DateOnly BirthDate { get; set; }
 
         [Display(Name = "Kategoria")]
@@ -39,6 +40,10 @@ namespace WebApp.Models
         public Category Category { get; set; }
         
         public DateTime Created { get; set; }
+        
+        public int OrganizationId { get; set; }
+        
+        public OrganizationEntity? Organization { get; set; }
 
     }
 }

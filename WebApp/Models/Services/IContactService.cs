@@ -7,6 +7,8 @@
         void Update(ContactModel model);
         List<ContactModel> GetAll();
         ContactModel? GetById(int id);
+        
+        List<OrganizationEntity> GetOrganizations();
 
     }
 }

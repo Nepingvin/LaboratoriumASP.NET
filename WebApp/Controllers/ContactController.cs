@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApp.Models;
 using WebApp.Models.Services;
 
@@ -6,6 +7,7 @@ namespace WebApp.Controllers
 {
     public class ContactController : Controller
     {
+        
         private readonly IContactService _contactService;
 
         public ContactController(IContactService contactService)
@@ -13,6 +15,7 @@ namespace WebApp.Controllers
             _contactService = contactService;
         }
 
+        /*private static int currentId = 3;*/
         // lista kontaktow, przycisk dodawania
         public IActionResult Index()
         {
@@ -26,7 +29,14 @@ namespace WebApp.Controllers
 
         public IActionResult Add()
         {
-            return View();
+            ContactModel model = new ContactModel();
+            model.Organizations = _contactService.GetOrganizations()
+                .Select(e => new SelectListItem()
+                {
+                    Text = e.Name,
+                    Value = e.Id.ToString()
+                }).ToList();
+            return View(model);
         }
         [HttpPost]
         public IActionResult Add(ContactModel model)
