@@ -17,12 +17,14 @@ namespace WebApp.Controllers
         {
             _context = context;
         }
-        
+
+        // GET: Organization
         public async Task<IActionResult> Index()
         {
             return View(await _context.Organizations.ToListAsync());
         }
-        
+
+        // GET: Organization/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,10 +47,7 @@ namespace WebApp.Controllers
         {
             return View();
         }
-
-        // POST: Organization/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,NIP,REGON")] OrganizationEntity organizationEntity)
